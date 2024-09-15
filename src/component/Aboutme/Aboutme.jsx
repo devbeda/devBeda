@@ -1,5 +1,9 @@
 import React from "react";
-import reactlogo from "../../assets/images/ReactLogo.png";
+import Reactlogo from "../../assets/images/ReactLogo.png";
+import Nodelogo from "../../assets/images/nodelogo.png";
+import Mongodblogo from "../../assets/images/Mongodblogo.png";
+import Expresslogo from "../../assets/images/expresslogo.png";
+import Javalogo from "../../assets/images/Javalogo.png"
 
 function Aboutme() {
   return (
@@ -16,16 +20,16 @@ function Aboutme() {
           web development, I've focused on becoming a proficient MERN stack
           developer over the past 7-8 months. My journey has been fueled by a
           passion for creating dynamic and efficient web applications using
-          MongoDB, Express.js, React, and Node.js. <br /> Throughout my experience,
-          I’ve tackled various challenges and developed a range of projects that
-          highlight my skills in both frontend and backend development. From
-          building interactive user interfaces with React to implementing
-          server-side solutions with Node.js, I am dedicated to crafting
-          solutions that are both innovative and user-centric. <br/> I am currently
-          looking for opportunities to further expand my expertise and
-          contribute to exciting projects. If you’re interested in collaborating
-          or learning more about my work, feel free to explore my portfolio and
-          get in touch.
+          MongoDB, Express.js, React, and Node.js. <br /> Throughout my
+          experience, I’ve tackled various challenges and developed a range of
+          projects that highlight my skills in both frontend and backend
+          development. From building interactive user interfaces with React to
+          implementing server-side solutions with Node.js, I am dedicated to
+          crafting solutions that are both innovative and user-centric. <br /> I
+          am currently looking for opportunities to further expand my expertise
+          and contribute to exciting projects. If you’re interested in
+          collaborating or learning more about my work, feel free to explore my
+          portfolio and get in touch.
         </p>
       </div>
 
@@ -37,7 +41,13 @@ function Aboutme() {
 
         <div class="w-[100%]  text-white h-auto md:flex grid grid-cols-2 justify-center items-center   px-12 gap-4 md:px-28 py-5">
           <div className=" relative border-2 group  border-blue-700  md:h-56 md:w-48 w-32 h-40   items-start rounded-lg  hover:shadow-card-shadow hover:scale-105 transition-all duration-200">
-            <div className="h-full w-full group-hover:blur-sm bg-react-logo  bg-center bg-contain bg-no-repeat"></div>
+            <div className="h-full w-full flex justify-center items-center">
+              <img
+                src={Reactlogo}
+                alt=""
+                className="h-auto   group-hover:blur-sm object-cover"
+              />
+            </div>
             <div className=" w-full h-full  px-3 py-1 absolute top-0">
               <h1 className="font-bold text-xs sm:text-base text-[#8ecae6]">
                 React.js
@@ -50,7 +60,13 @@ function Aboutme() {
             </div>
           </div>
           <div className=" relative border-2 group  border-blue-700  md:h-56 md:w-48 w-32 h-40   items-start rounded-lg  hover:shadow-card-shadow hover:scale-105 transition-all duration-200">
-            <div className="h-full w-full group-hover:blur-sm bg-Node-Logo  bg-center bg-contain bg-no-repeat"></div>
+          <div className="h-full w-full flex justify-center items-center">
+              <img
+                src={Nodelogo}
+                alt=""
+                className="h-auto   group-hover:blur-sm object-cover"
+              />
+            </div>
             <div className=" w-full h-full  px-3 py-1 absolute top-0">
               <h1 className="font-bold text-[#29a105]">Node.js</h1>
               <div className="text-center text-xs sm:text-sm text-white font-semibold mt-5 md:mt-9 group-hover:opacity-100 opacity-0 transition-all duration-300  w-full ">
@@ -62,7 +78,13 @@ function Aboutme() {
           </div>
 
           <div className=" relative border-2 group  border-blue-700  md:h-56 md:w-48 w-32 h-40 flex   items-center justify-center rounded-lg  hover:shadow-card-shadow hover:scale-105 transition-all duration-200">
-            <div className="h-[75%] w-[75%]  group-hover:blur-sm bg-Express-Logo  bg-center bg-contain bg-no-repeat"></div>
+          <div className="h-full w-full flex justify-center items-center">
+              <img
+                src={Expresslogo}
+                alt=""
+                className="h-[60%]   group-hover:blur-sm object-cover"
+              />
+            </div>
             <div className=" w-full h-full  px-3 py-1 absolute top-0 text-yellow-400">
               <h1 className="font-bold">Express.js</h1>
               <div className="text-center sm:text-sm text-black font-semibold mt-5 md:mt-12 group-hover:opacity-100 opacity-0 transition-all duration-300  w-full ">
@@ -73,7 +95,13 @@ function Aboutme() {
           </div>
 
           <div className=" relative border-2 group  border-blue-700  md:h-56 md:w-48 w-32 h-40 flex   items-center justify-center rounded-lg  hover:shadow-card-shadow hover:scale-105 transition-all duration-200">
-            <div className="h-[75%] w-[75%]  group-hover:blur-sm bg-Mongo-Logo  bg-center bg-contain bg-no-repeat"></div>
+          <div className="h-full w-full flex justify-center items-center">
+              <img
+                src={Mongodblogo}
+                alt=""
+                className="h-[80%]   group-hover:blur-sm object-cover"
+              />
+            </div>
             <div className=" w-full h-full  px-3 py-1 absolute top-0 text-[#06d6a0]">
               <h1 className="font-bold">Mango DB</h1>
               <div className="text-center sm:text-sm font-semibold mt-5 md:mt-12 group-hover:opacity-100 opacity-0 transition-all duration-300  w-full ">
@@ -84,7 +112,13 @@ function Aboutme() {
           </div>
 
           <div className=" relative border-2 group   border-blue-700  md:h-56 md:w-48 w-32 h-40 flex   items-center justify-center rounded-lg  hover:shadow-card-shadow hover:scale-105 transition-all duration-200">
-            <div className="h-[75%] w-[75%]  group-hover:blur-sm bg-Java-Logo  bg-center bg-contain bg-no-repeat"></div>
+          <div className="h-full w-full flex justify-center items-center">
+              <img
+                src={Javalogo}
+                alt=""
+                className="h-[70%]  group-hover:blur-sm object-cover"
+              />
+            </div>
             <div className=" w-full h-full  px-3 py-1 absolute top-0 text-orange-500">
               <h1 className="font-bold">Java</h1>
               <div className="text-center sm:text-sm font-semibold mt-7 md:mt-12 group-hover:opacity-100 opacity-0 transition-all duration-300  w-full ">
