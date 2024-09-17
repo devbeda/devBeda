@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import img1 from "./images/Profilepicture.png";
-import resume from "./Dev-Beda_Resume.pdf";
+import resume from "./Dev-BedaResume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons";
 
